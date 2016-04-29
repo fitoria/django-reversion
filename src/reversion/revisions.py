@@ -290,6 +290,7 @@ class RevisionContextManager(local):
 class RevisionContext(object):
 
     """An individual context for a revision."""
+    __name__ = str("RevisionContext")
 
     def __init__(self, context_manager, manage_manually):
         """Initializes the revision context."""
